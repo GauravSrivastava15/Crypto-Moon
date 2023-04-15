@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { AiFillLock, AiOutlineMail } from 'react-icons/ai'
 import { Link, useNavigate } from "react-router-dom";
-import {signIn} from '../contex/AuthContex'
 import { UserAuth } from "../contex/AuthContex";
 
 const Signin = () => {
